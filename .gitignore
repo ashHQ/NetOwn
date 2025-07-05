@@ -1,0 +1,9 @@
+# Ignore Poetry's virtual environment
+.venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore lock file if you want to keep repo clean
+poetry.lock
