@@ -59,5 +59,5 @@ def main():
         for network in results:
             print(f"SSID: {network.ssid}, Signal: {network.signal} dBm")
 
-if name == "main":
+if __name__ == "__main__":
     main()
