@@ -39,7 +39,6 @@ def main():
         exit(1)
 
     print(f"Using interface: {iface.name()}")
-
     try:
         iface.scan()
         time.sleep(5) 
